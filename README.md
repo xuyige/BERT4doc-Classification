@@ -154,3 +154,16 @@ We upload IMDb-based further pre-trained checkpoints at
 [here](https://drive.google.com/drive/folders/1Rbi0tnvsQrsHvT_353pMdIbRwDlLhfwM).
 
 For other checkpoints, please contact us by e-mail.
+
+## How to cite our paper
+
+```text
+@inproceedings{sun2019fine,
+  title={How to fine-tune {BERT} for text classification?},
+  author={Sun, Chi and Qiu, Xipeng and Xu, Yige and Huang, Xuanjing},
+  booktitle={China National Conference on Chinese Computational Linguistics},
+  pages={194--206},
+  year={2019},
+  organization={Springer}
+}
+```
