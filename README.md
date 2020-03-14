@@ -4,6 +4,13 @@ This is the code and source for the paper [How to Fine-Tune BERT for Text Classi
 
 In this paper, we conduct exhaustive experiments to investigate different fine-tuning methods of BERT on text classification task and provide a general solution for BERT fine-tuning.
 
+
+\*********** **update at Mar 14, 2020** \*************
+
+Our checkpoint can be loaded in BertEmbedding from the latest [fastNLP](https://github.com/fastnlp/fastNLP) package.
+
+[Link to](https://github.com/fastnlp/fastNLP/blob/master/fastNLP/embeddings/bert_embedding.py) fastNLP.embeddings.BertEmbedding
+
 ## Requirements
 
 For further pre-training, we borrow some code from Google BERT. Thus, we need:
