@@ -860,14 +860,14 @@ def main():
         no_decay_optimizer_parameters = []
         decay_optimizer_parameters = []
         for g, l in groups:
-            no_decay_optimizer_parameters.append(
+            decay_optimizer_parameters.append(
                 {
                     'params': [p for n, p in model.named_parameters() if
                                not any(nd in n for nd in no_decay) and any(nd in n for nd in [g])],
                     'weight_decay_rate': 0.01, 'lr': l
                 }
             )
-            decay_optimizer_parameters.append(
+            no_decay_optimizer_parameters.append(
                 {
                     'params': [p for n, p in model.named_parameters() if
                                any(nd in n for nd in no_decay) and any(nd in n for nd in [g])],
