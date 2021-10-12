@@ -20,6 +20,8 @@ For further pre-training, we borrow some code from Google BERT. Thus, we need:
 + pandas
 + numpy
 
+Note that you need Python 3.7 or earlier for compatibility with tensorflow 1.1x.
+
 For fine-tuning, we borrow some codes from pytorch-pretrained-bert package (now well known as transformers). Thus, we need:
 
 + torch>=0.4.1,<=1.2.0
